@@ -1,0 +1,11 @@
+[
+  {
+    "UserID": "3d10f61c-c390-41f3-93db-69906b36c99b",
+    "Name": "Puya Rajabian",
+    "Email": "puya.rajabian@snyk.io",
+    "IssueID": "SNYK-PYTHON-DJANGO-3319450",
+    "ProjectID": "c97cd145-5d78-45a9-881e-4d8f7f5fd18b",
+    "CreationTime": "December 16, 2023 at 21:24 (2023-12-16T21:24:35.774Z)",
+    "ReasonForIgnore": "not-vulnerable"
+  }
+]

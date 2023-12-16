@@ -5,13 +5,13 @@ import os
 from datetime import datetime
 
 api_key = os.environ.get("SNYK_TOKEN")
-org_id = "0ebb9084-0c7b-4362-9a45-880e038d6284"
+org_id = ""
 endpoint_url = f"https://api.snyk.io/rest/orgs/{org_id}/audit_logs/search?version=2023-12-14%7Ebeta&size=100&event=org.project.ignore.create"
 
 
 # Function to fetch user details
 def get_user_details(user_id, api_key):
-    user_endpoint = f"https://api.snyk.io/rest/orgs/0ebb9084-0c7b-4362-9a45-880e038d6284/users/{user_id}?version=2023-12-14%7Ebeta"
+    user_endpoint = f"https://api.snyk.io/rest/orgs/{org_id}/users/{user_id}?version=2023-12-14%7Ebeta"
     user_headers = {
         'Authorization': f"token {api_key}",
         'Accept': 'application/vnd.api+json; charset=utf-8'

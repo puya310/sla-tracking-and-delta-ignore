@@ -1,0 +1,7 @@
+argon2-cffi-bindings==21.2.0  # via argon2-cffi
+arrow==1.2.3              # via isoduration
+arviz==0.16.1             # via pymc
+asgi-csrf==0.9            # via datasette
+asgi-lifespan==2.0.0      # via api
+asgiref==3.7.2            # via datasette, opentelemetry-
+python_version < '3.11'

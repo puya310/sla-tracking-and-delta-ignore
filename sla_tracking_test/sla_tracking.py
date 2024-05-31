@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import os
 
 # Replace {org_id} with your actual organization ID
-org_id = ""
+org_id = "put-org-id-here"
 url = f"https://api.snyk.io/rest/orgs/{org_id}/issues?version=2023-12-14%7Ebeta&type=package_vulnerability&limit=100"
 api_key=os.environ.get("SNYK_TOKEN")
 
